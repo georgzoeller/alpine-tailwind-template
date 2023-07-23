@@ -1,0 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+  --doc-height: 100%;
+}
+
+html,
+body {
+  overscroll-behavior-y: none;
+  min-height: 100vh;
+
+  width: 100vw;
+  /* TailwindCSS font-sans */
+  font-family: Roboto, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+
+  width: 100vw;
+}
+
+[draggable='true'] {
+  cursor: move;
+}
+
+.resizable {
+  overflow: hidden;
+  resize: both;
+  max-width: 30vw;
+  max-height: 50vh;
+  border: 1px solid black;
+  min-width: 50px;
+  min-height: 50px;
+}
+

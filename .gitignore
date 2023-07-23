@@ -2,7 +2,7 @@
 .env.local
 dist-ssr
 *.local
-.mercs.local.yaml
+
 tsconfig.tsbuildinfo
 stats.html
 yarn.lock

@@ -14,6 +14,7 @@ document.addEventListener('alpine:init', async () => {
     modalOpen: false,    
     modalTitle: 'Loading...',
     modalContent: '',
+    headerContent:  ['Welcome to Kony World', 'It is Truly Awesome!', 'You Have to Try It!'],
     showModalDialog(title, content)
     {
       this.modalTitle = title
